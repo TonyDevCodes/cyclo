@@ -42,7 +42,7 @@ Built as a real, usable tool and as a React + TypeScript portfolio piece.
 
 ## Design
 
-Dark navy / charcoal base with warm gold / amber / orange / red-amber accents — a calm,
+Dark navy / charcoal base with warm gold / amber / orange / red-amber accents - a calm,
 premium "executive fintech" feel. Each category has its own accent colour, used
 consistently across the list, dashboard and charts.
 
