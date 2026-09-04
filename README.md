@@ -15,7 +15,7 @@ Built as a real, usable tool and as a React + TypeScript portfolio piece.
 | UI             | React + TypeScript                                |
 | State          | React Context + hooks (no Redux/Zustand)          |
 | Charts         | Recharts                                          |
-| Storage        | IndexedDB via Dexie.js — fully offline, no backend |
+| Storage        | IndexedDB via Dexie.js - fully offline, no backend |
 | PWA            | Web app manifest + hand-written service worker (offline caching), local renewal notifications |
 | i18n           | react-i18next with JSON translation files (EN/DE/FR/ES) |
 
