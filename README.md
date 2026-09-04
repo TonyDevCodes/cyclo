@@ -21,24 +21,24 @@ Built as a real, usable tool and as a React + TypeScript portfolio piece.
 
 ## Features
 
-- **Subscriptions CRUD** — name, price, currency, billing cycle (weekly / monthly /
+- **Subscriptions CRUD** - name, price, currency, billing cycle (weekly / monthly /
   quarterly / yearly / custom interval), category, next renewal date, notes. Active/paused
   state. List sortable by renewal date, price, name or category, with search and a
   category filter.
-- **Smart categorization** — a local JSON dataset maps ~200 common services (Netflix,
+- **Smart categorization** - a local JSON dataset maps ~200 common services (Netflix,
   Spotify, AWS, Adobe, …) to a suggested category. Suggestions appear as you type the name
   and are always overridable. No external API calls.
-- **Dashboard / spending insights** — total monthly & annual spend, breakdown by category
+- **Dashboard / spending insights** - total monthly & annual spend, breakdown by category
   (donut chart), and a 12-month spend-trend area chart.
-- **Duplicate / overlap detector** — surfaces categories with more than one active
+- **Duplicate / overlap detector** - surfaces categories with more than one active
   subscription as a gentle "possible savings" hint, with a rough "keep the cheapest"
   estimate. Also flags duplicate names.
-- **Renewal notifications** — local browser notifications with a configurable lead time
+- **Renewal notifications** - local browser notifications with a configurable lead time
   (1–14 days). Purely client-side; there is no push server.
-- **Dark / light mode** — dark is the default; the choice is persisted and applied before
+- **Dark / light mode** - dark is the default; the choice is persisted and applied before
   first paint (no flash).
-- **PWA** — installable, works offline after the first visit.
-- **Export / import** — full JSON backup for device migration.
+- **PWA** - installable, works offline after the first visit.
+- **Export / import** - full JSON backup for device migration.
 
 ## Design
 
@@ -66,7 +66,7 @@ npm run preview  # serve the production build
 ```
 src/
   components/      views + presentational components (+ charts/)
-  context/         AppContext — central app state
+  context/         AppContext - central app state
   hooks/           theme effect, renewal reminders, install prompt
   lib/             Dexie schema, categorization, billing math, insights,
                    currency, backup, sample data, notifications
