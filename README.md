@@ -1,4 +1,4 @@
-# Cyclo — Subscription & Renewal Tracker
+# Cyclo - Subscription & Renewal Tracker
 
 Cyclo is a **privacy-first, offline-first** subscription and renewal tracker. Log your
 recurring subscriptions (streaming, software, cloud storage, insurance, domains, …) and
