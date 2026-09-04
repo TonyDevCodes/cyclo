@@ -2,7 +2,7 @@
 
 Cyclo is a **privacy-first, offline-first** subscription and renewal tracker. Log your
 recurring subscriptions (streaming, software, cloud storage, insurance, domains, …) and
-Cyclo keeps track of upcoming renewals, total spend and possible savings — **without ever
+Cyclo keeps track of upcoming renewals, total spend and possible savings - **without ever
 sending your data to a server**. Everything lives in your browser via IndexedDB.
 
 Built as a real, usable tool and as a React + TypeScript portfolio piece.
