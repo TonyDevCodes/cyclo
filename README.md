@@ -6,6 +6,7 @@ Cyclo keeps track of upcoming renewals, total spend and possible savings - **wit
 sending your data to a server**. Everything lives in your browser via IndexedDB.
 
 Built as a real, usable tool and as a React + TypeScript portfolio piece.
+![Cyclo Dashboard](cyclo-dashboard-screenshot.png)
 
 ## Stack
 
